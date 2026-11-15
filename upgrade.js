@@ -6,7 +6,9 @@ const top=document.createElement('button');top.className='back-top';top.textCont
 let pending=false;function track(){pending=false;const max=document.documentElement.scrollHeight-innerHeight;progress.style.transform=`scaleX(${max>0?scrollY/max:0})`;top.classList.toggle('visible',scrollY>650);}
 addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(track)}},{passive:true});
 function enhance(){if(!document.querySelector('.owner'))return false;
+ document.body.classList.add('ui-v2');
  document.querySelectorAll('.hero,.owner').forEach(el=>{const ghost=document.createElement('div');ghost.className='brand-ghost';ghost.setAttribute('aria-hidden','true');el.prepend(ghost)});
+ document.querySelectorAll('.roi-card').forEach((card,i)=>card.dataset.order=String(i+1).padStart(2,'0'));
  const reveal=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('waiting');reveal.unobserve(e.target)}})},{rootMargin:'0px 0px 60px 0px',threshold:0.02});
  if(!reduce)document.querySelectorAll('.monthly-head,.sales-panel,.roi-card,.owner').forEach(el=>{el.classList.add('reveal');if(el.getBoundingClientRect().top>innerHeight){el.classList.add('waiting');reveal.observe(el)}});
  document.querySelectorAll('.owner').forEach((owner,i)=>{const hs=[...owner.querySelectorAll('.report-copy h4')];if(hs.length<2)return;const map=document.createElement('div');map.className='report-map';map.setAttribute('aria-label','本渠道章节');hs.forEach((h,j)=>{h.id=`chapter-${i}-${j}`;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;map.append(a)});owner.querySelector('.lead').after(map)});
