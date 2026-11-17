@@ -1,0 +1,124 @@
+{
+  "topics": [
+    {
+      "name": "动力之巅电解质能量胶",
+      "participants": 314,
+      "plays": 308000,
+      "image": "exposure-motionvita.png"
+    },
+    {
+      "name": "迈胜能量胶",
+      "participants": 2256,
+      "plays": 10608000,
+      "image": "exposure-maisheng.png"
+    },
+    {
+      "name": "迈胜水润能量胶",
+      "participants": 24,
+      "plays": 61000,
+      "image": "exposure-maisheng-hydration.png"
+    },
+    {
+      "name": "康比特能量胶",
+      "participants": 36000,
+      "plays": 240000000,
+      "image": "exposure-conbit.png"
+    }
+  ],
+  "months": [
+    {
+      "month": "5月",
+      "posts": 80,
+      "reads": 423000,
+      "image": "pinku-may.jpg"
+    },
+    {
+      "month": "6月",
+      "posts": 60,
+      "reads": 1374000,
+      "image": "pinku-june.jpg"
+    },
+    {
+      "month": "7月",
+      "posts": 34,
+      "reads": 539000,
+      "image": null
+    },
+    {
+      "month": "8月",
+      "posts": 61,
+      "reads": 622000,
+      "image": null
+    },
+    {
+      "month": "9月",
+      "posts": 86,
+      "reads": 822000,
+      "image": "pinku-september.jpg"
+    }
+  ],
+  "budget": [
+    {
+      "fans": "5,000—1万粉丝",
+      "quote": "0—600元",
+      "test": "200—400元",
+      "priority": "前期优先测试"
+    },
+    {
+      "fans": "1万—5万粉丝",
+      "quote": "600—1,300元",
+      "test": "上限600元",
+      "priority": "筛选后测试"
+    },
+    {
+      "fans": "5万—10万粉丝",
+      "quote": "/",
+      "test": "前期不参考",
+      "priority": "暂不安排"
+    },
+    {
+      "fans": "10万—50万粉丝",
+      "quote": "/",
+      "test": "前期不参考",
+      "priority": "暂不安排"
+    }
+  ],
+  "actions": [
+    {
+      "id": "bd",
+      "title": "BD尽快到岗",
+      "action": "明确到岗时间，交接现有达人名单，逐人跟进寄样、拍摄和发布。",
+      "deliverable": "到岗时间、达人名单、预计发布日"
+    },
+    {
+      "id": "host",
+      "title": "主播尽快到岗",
+      "action": "确认到岗与排班，围绕能量胶主推机制完成试播和话术交接。",
+      "deliverable": "到岗时间、直播排班、试播记录"
+    },
+    {
+      "id": "creator",
+      "title": "达人视频按计划发布",
+      "action": "先收回已寄样达人的排期；每条视频回收链接、播放、进店和成交数据。",
+      "deliverable": "发布链接、播放量、进店、成交"
+    },
+    {
+      "id": "pb",
+      "title": "推进“胶你PB”招募",
+      "action": "统一活动物料和参与要求，确定招募名单、寄样安排与内容排期。",
+      "deliverable": "报名名单、寄样记录、发文排期"
+    },
+    {
+      "id": "xhs",
+      "title": "小红书按预算筛选达人",
+      "action": "先筛训练、比赛、恢复场景匹配的账号，按测试报价谈合作；发文后记录阅读、收藏与进店表现。",
+      "deliverable": "候选账号、合作报价、发文及数据回收表"
+    },
+    {
+      "id": "wechat",
+      "title": "内部确认视频号资质补齐方案",
+      "action": "核对申请类目、外站店铺和品牌资质，确认现有材料能否补齐，再向平台确认复审条件。",
+      "deliverable": "资质缺口清单、内部结论、平台回复"
+    }
+  ]
+}
